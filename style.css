@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+body {
+  background-color: hsl(217deg, 54%, 11%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.container {
+  width: 18rem;
+  padding: 1rem;
+  background-color: hsl(216deg, 50%, 16%);
+  border-radius: 1rem;
+}
+
+h3 {
+  margin: 1rem 0;
+  color: white;
+}
+
+.cube {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.cube:hover {
+  background-color: cyan;
+  background-image: url("./images/icon-view.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cube img {
+  display: block;
+}
+
+.cube-img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.cube-img:hover {
+  opacity: 0.3;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+  color: hsl(178deg, 100%, 50%);
+}
+.price .time, .price .eth {
+  display: flex;
+  align-items: center;
+}
+.price .time span, .price .eth span {
+  margin-left: 0.5rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0 0.5rem 0;
+}
+.profile img {
+  width: 2rem;
+  padding: 1px;
+  border-radius: 100%;
+  background-color: white;
+}
+.profile p {
+  margin-left: 1rem;
+  color: white;
+}
+
+.greyColor {
+  color: hsl(190deg, 35%, 65%);
+}
+
+hr {
+  height: 1px;
+  border: none;
+  background-color: hsl(215deg, 32%, 27%);
+}
+
+.name:hover, h3:hover {
+  color: hsl(178deg, 100%, 50%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */
