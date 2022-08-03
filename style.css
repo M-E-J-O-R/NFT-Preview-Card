@@ -20,6 +20,8 @@ body {
   padding: 1rem;
   background-color: hsl(216deg, 50%, 16%);
   border-radius: 1rem;
+  -webkit-tap-highlight-color: transparent !important;
+
 }
 
 h3 {
