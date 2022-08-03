@@ -12,7 +12,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .container {
@@ -94,12 +94,4 @@ hr {
   color: hsl(178deg, 100%, 50%);
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-  color: white;
-}
-
-.attribution a {
-  color: hsl(228deg, 45%, 44%);
-}/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
